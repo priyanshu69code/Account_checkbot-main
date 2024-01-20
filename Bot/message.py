@@ -8,7 +8,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-bot_token = os.environ.get('TG_BOT_TOKEN')
+# bot_token = os.environ.get('TG_BOT_TOKEN')
+bot_token = "6974045486:AAHdwx8r7_TzYtSw1q9aNoxS4q7-xtCqmEA"
 bot = Bot(bot_token)
 
 def Sendmessage(chat_id, text,reply_markup=None):
